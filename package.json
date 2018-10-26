@@ -9,6 +9,9 @@
   "activationCommands": {
     "atom-workspace": "atom-hets-integration:toggle"
   },
+  "deserializers": {
+    "atom-hets-integration/AtomHetsIntegrationView": "deserializeAtomHetsIntegrationView"
+  },
   "repository": "https://github.com/spechub/atom-hets-integration",
   "license": "GPL-2.0",
   "engines": {
